@@ -5,24 +5,24 @@ export const Logo = styled(NavLink)`
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 48px;
 
   margin-right: 114px;
 
-  color: #000000;
+  color: blue;
   > span {
-    color: #fabb18;
+    color: yellow;
 
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 
   :hover,
   :focus {
-    color: #fabb18;
+    color: blue;
     > span {
-      color: #000000;
+      color: yellow;
     }
   }
 `;
