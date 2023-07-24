@@ -13,15 +13,15 @@ export const LoggedLink = styled(NavLink)`
   font-weight: 600;
   font-size: 18px;
 
-  padding: 22px 28px;
+  padding: 14px 28px;
 
-  color: #ffffff;
-  background-color: #000000;
+  color: blue;
+  background-color: yellow;
 
   border-radius: 14px;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 
   :hover,
   :focus {
